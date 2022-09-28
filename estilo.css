@@ -6,6 +6,7 @@ body{
    width: 100%;
    background-color:  #134d86;
    height: 30px;
+   position: fixed;
 }
 
 .largura-site{
@@ -36,6 +37,10 @@ body{
    text-decoration: underline;
 }
 
+.imgright{
+   float:right;
+}
+
 .imghome{
    float:left;
    margin-top: 80px;
@@ -53,4 +58,56 @@ body{
    height: auto;
    float: left;
    border-bottom: 1px solid rgb(0, 0, 189);
+}
+
+#rodape{
+   width: 100%;
+   height: 30px;
+   float: left;
+   font-size: 20px;
+   background-color: #134d86;
+   color: white;
+   text-align: center;
+}
+
+p{
+   color: black;
+   font-size: 20px;
+   text-align: justify;
+}
+
+h1{
+   color: blue;
+   font-size: 40px;
+}
+
+li{
+   margin-bottom: 15px;
+}
+
+ul{
+   font-size: 15px;
+   color: rgb(0, 0, 189);
+   list-style-type:square; /*altera marcador*/
+   list-style-position: inside;
+}
+
+form{
+   color: black;
+   margin-bottom: 50px;
+}
+
+input[type=text]{
+   width: 300px;
+   height: 25px;
+   background-color: rgb(160, 160, 160);
+   border: solid 1px blue;
+}
+
+textarea{
+   width: 400px;
+   height: 140px;
+   background-color: rgb(160, 160, 160);
+   border: solid 1px blue;
+   resize: none;
 }

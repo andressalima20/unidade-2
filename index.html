@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
-<body>
+<body id="body">
     <div id="topo">
         <div class="largura-site">
             <div id="logotipo">
                 <img src="imagem/logo.png" alt="logotipo do site" />
             </div> <!--fecha logotipo-->
             <div id="menu">
-                <a href="#">Home</a>
-                <a href="#">Quem Somos</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contato</a>
+                <a href="#body">Home</a>
+                <a href="#quemsomos">Quem Somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
             </div> <!--fecha menu-->
         </div><!--fecha largura-site-->
 
@@ -43,15 +43,49 @@
                 <img src="imagem/imghome3.jpg" alt="moça no dentista" class="imghome"/>
             </div> <!--fecha conteudo home-->
         </div> <!--fecha a divisão home-->
+
         <div class="conteudo" id="quemsomos">
         <h1>Quem Somos</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eos optio. Nemo et ab architecto, numquam deserunt expedita. Sit quidem consequatur perferendis ducimus voluptas fuga nesciunt itaque adipisci possimus accusamus!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima est quam dolores voluptate reprehenderit deserunt natus iure suscipit pariatur beatae accusamus reiciendis qui, in soluta maiores veniam rem sapiente eligendi.</p>
         <img src="imagem/destaquequemsomos.jpg" alt="imagem do quem somos">
        </div><!--fecha a divisão quem somos-->
-        <div class="conteudo" id="servicos"></div>
-        <div class="conteudo" id="contato"></div>
-        <div id="rodape"></div>
+
+        <div class="conteudo" id="servicos">
+            <h1>Nossos Serviços</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor harum nesciunt architecto maiores illum non nostrum est ea, voluptatum repellendus, corporis hic numquam. Accusantium, in totam. Dignissimos vero id eum!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, in. Doloremque dolore perspiciatis accusamus adipisci impedit, dolorum distinctio quasi voluptas laboriosam beatae officiis quae quaerat, autem dignissimos iure sit corrupti!</p>
+
+            <img src="imagem/destaqueservicos.jpg"
+            alt="imagem do nossos serviços." class="imgright">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio explicabo ipsum aut et dolores soluta, eaque amet? Voluptas numquam accusantium corrupti ex hic cum delectus mollitia, maxime cumque at est.</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio explicabo ipsum aut et dolores soluta, eaque amet? Voluptas numquam accusantium corrupti ex hic cum delectus mollitia, maxime cumque at est.</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio explicabo ipsum aut et dolores soluta, eaque amet? Voluptas numquam accusantium corrupti ex hic cum delectus mollitia, maxime cumque at est.</li>
+            </ul>
+        </div><!--fecha a divisão serviços-->
+
+        <div class="conteudo" id="contato">
+            <h1>Contato</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos doloremque vero eos dolore. Sit quos repellat at odio beatae optio modi quo quas placeat, molestiae, tempora quaerat unde animi?</p>
+            <img src="imagem/destaquecontato.jpg" alt="imagem de pessoas" class="imgright">
+            <form action="">
+                Nome:<br/>
+                <input type="text" placeholder="Digite o nome"/><br/>
+                E-mail:<br/>
+                <input type="text" placeholder="Digite o e-mail"/><br/>
+                Mensagem:<br/>
+                <textarea cols="30" rows="10" placeholder="Digite aqui...">
+
+                </textarea>
+                <br/><br/>
+                <input type="submit" value="enviar"/>
+            </form>
+        </div><!--fecha a divisão contato -->
+
     </div> <!--fecha class largura-site-->
+    <div id="rodape">
+        Dent Clean- Todos os Sireitos Reservados.
+    </div>
 </body>
 </html>
